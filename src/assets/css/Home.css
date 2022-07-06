@@ -1,0 +1,31 @@
+.home-img div {
+  width: 1240px;
+  height: 223px;
+  background-color: black;
+  border-radius: 20px;
+  position: absolute;
+  opacity: 0.3;
+}
+
+.home-img span {
+  color: white;
+  display: flex;
+  font-weight: bold;
+  font-size: 35px;
+  position: absolute;
+}
+
+@media only screen and (max-width: 1024px) {
+  .home-img div {
+    width: 90vw;
+    height: 111px;
+  }
+  .home-img img {
+    width: 90vw;
+    height: 111px;
+  }
+  .home-img span {
+    font-size: 24px;
+    width: 80vw;
+  }
+}

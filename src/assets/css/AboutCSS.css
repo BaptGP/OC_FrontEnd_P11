@@ -1,0 +1,9 @@
+.accordeons{
+    margin: 33px 200px;
+}
+
+@media only screen and (max-width: 1024px) {
+    .accordeons{
+        margin: 20px 0;
+    }
+}
